@@ -56,12 +56,51 @@ export default function App() {
 }
 
 const styles = StyleSheet.create({
-  container: { flex: 1, padding: 20, marginTop: 40 },
-  title: { fontSize: 28, fontWeight: 'bold', marginBottom: 10 },
-  subtitle: { fontSize: 20, marginTop: 20 },
-  menuItem: { padding: 10, backgroundColor: '#e0e0e0', marginVertical: 5, borderRadius: 5 },
-  orderItem: { fontSize: 16, marginTop: 3 },
-  total: { fontSize: 18, fontWeight: 'bold', marginTop: 10 },
-  resetButton: { marginTop: 10, backgroundColor: 'red', padding: 10, borderRadius: 5 },
-  resetText: { color: 'white', textAlign: 'center' },
+  container: {
+    flex: 1,
+    backgroundColor: '#f9f9f9',
+    padding: 20,
+    paddingTop: 50,
+  },
+  title: {
+    fontSize: 28,
+    fontWeight: 'bold',
+    marginBottom: 10,
+    color: '#333',
+    textAlign: 'center',
+  },
+  subtitle: {
+    fontSize: 20,
+    marginTop: 20,
+    marginBottom: 5,
+    color: '#333',
+  },
+  menuItem: {
+    padding: 15,
+    backgroundColor: '#4caf50',
+    marginVertical: 5,
+    borderRadius: 8,
+  },
+  orderItem: {
+    fontSize: 16,
+    marginTop: 3,
+    color: '#555',
+  },
+  total: {
+    fontSize: 18,
+    fontWeight: 'bold',
+    marginTop: 15,
+    color: '#222',
+  },
+  resetButton: {
+    marginTop: 20,
+    backgroundColor: '#f44336',
+    padding: 12,
+    borderRadius: 8,
+  },
+  resetText: {
+    color: 'white',
+    textAlign: 'center',
+    fontWeight: 'bold',
+  },
 });
